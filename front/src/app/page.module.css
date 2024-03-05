@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.conteiner {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.conteiner div {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800px;
+  transition: all 0.1s ease-in-out;
+}
+
+.conteiner_left div:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+}
+
+.conteiner_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.conteiner_left>* {
+  padding: 20px;
+}
+
+.App form {
+  margin: 0.3rem auto;
+  width: 550px;
+  max-width: 80%;
+  padding: 12rem;
+  border: 2px solid #e34728;
+}
+
+.App form>div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.input_group>label {
+  font-size: 1.3rem;
+  font-weight: 300px;
+  margin-bottom: 1rem;
+}
+
+.input_group input {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  width: 527px;
+  height: 23px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.input_group input>input {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 10%;
+  transform: scale(1.1);
+}
+
+
+.input_group input>input:focus {
+  outline: none;
+}
+
+.add-btn {
+  padding: 0.5rem 1rem;
+  background: #ccc;
+  border: none;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit_btn {
+  width: 50%;
+  padding: 0.7rem 5rem;
+  border: 2px solid #121212;
+  background: #fff;
+  margin: 0 auto;
+  display: block;
+  color: #121212;
+  font-size: 1.3rem;
+  font-weight: 550px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+.submit_btn:hover{
+  transform: scale(1.1);
+}
